@@ -1,0 +1,28 @@
+body {
+    background-color: #a26f40;
+    color: brown;
+}
+
+#mainContainer {
+    background-color: #f9eeaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    box-shadow: 10px 10px rgb(165, 168, 125);
+    border-radius:100px;
+    width:min-content;
+    
+    
+}
+
+.coffeeCup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
