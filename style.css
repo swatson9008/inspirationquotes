@@ -1,11 +1,13 @@
 body {
     background-color: #a26f40;
     color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #mainContainer {
     background-color: #f9eeaa;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding:100px;
@@ -14,9 +16,21 @@ body {
     margin-top: 40px;
     box-shadow: 10px 10px rgb(165, 168, 125);
     border-radius:100px;
-    width:min-content;
+    width:400px;
     
     
+}
+
+#inspireAnswer {
+    display:flex;
+    margin: 0px auto;
+    padding-top: 10px;
+    /*border: 3px solid red;*/
+    
+}
+
+footer {
+    color: white;
 }
 
 .coffeeCup {

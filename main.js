@@ -56,6 +56,7 @@ formB.addEventListener("submit", function (e) {
     const NameID = document.querySelector("#inputName1").value;
     quoteLine = randomizeQuotes();
     quoteField.textContent=["Hello " + NameID + ". Here is your quote for the day: " + quoteLine]
+    formB.remove();
 });
 
 
