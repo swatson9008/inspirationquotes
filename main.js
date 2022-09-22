@@ -31,26 +31,31 @@ function randomizeQuotes () {
 }
 
 const formB = document.querySelector("#myForm");
-const NameID = document.querySelector("#inputName");
+//const NameID = document.querySelector("#inputName1").value;
 const quoteField = document.querySelector("#inspireAnswer");
+
+
+
+//console.log(NameID)
 
 //console.log(randomizeQuotes());
 
-function produceQuote (){
+/*function produceQuote (){
     quoteLine = randomizeQuotes();
-    return "Hello " + NameID.value + ". Here is your quote for the day: " + quoteLine
+    return "Hello " + NameID + ". Here is your quote for the day: " + quoteLine
 
-}
+}*/
 
-const thisQuote = produceQuote(); 
+//const thisQuote = produceQuote(); 
 
 //console.log(thisQuote);
 
 
 formB.addEventListener("submit", function (e) {
     e.preventDefault();
-    console.log(thisQuote);
-    //quoteField.textContent=thisQuote;
+    const NameID = document.querySelector("#inputName1").value;
+    quoteLine = randomizeQuotes();
+    quoteField.textContent=["Hello " + NameID + ". Here is your quote for the day: " + quoteLine]
 });
 
 
